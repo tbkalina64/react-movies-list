@@ -4,6 +4,6 @@ import React from "react";
 export const Header = () => (
   <header>
     <img src="/logo/crave.svg" alt="logo" width={114} />
-    Hello
+    
   </header>
 );
