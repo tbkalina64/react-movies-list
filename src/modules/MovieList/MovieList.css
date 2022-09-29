@@ -58,12 +58,12 @@
 
 @media screen and (max-width: 768px) {
     .movies__container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media screen and (max-width: 625px) {
     .movies__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }

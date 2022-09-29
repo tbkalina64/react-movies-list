@@ -40,7 +40,8 @@ export const mock = [
     title: "South Park",
     image:
       "https://images2.9c9media.com/image_asset/2019_6_25_0912d848-4ae0-482f-8841-0b24b1b1220c_png_2000x3000.jpg"
-  },
+  }
+  ,
   {
     id: 46364,
     title: "Dollface",

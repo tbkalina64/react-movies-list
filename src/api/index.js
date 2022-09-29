@@ -14,6 +14,7 @@ export const addToWatchlist = (id) => {
     setTimeout(() => {
       if (success) {
         resolve({ message: `Added media ${id}`, status: 200 })
+        
       } else {
         reject({ message: `Error ${id}`, status: 422 })
       }

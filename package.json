@@ -8,10 +8,11 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+    "babel": "^6.23.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-icons": "^4.4.0",
-    "react-scripts": "4.0.0"
+    "react-scripts": "4.0.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
@@ -28,12 +29,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "repository": "git+https://github.com/EntpayFrontends/front-end-coding-challenge.git",
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "http://localhost:3000/"
-  },
-  "homepage": "http://localhost:3000/"
+  ]
 }

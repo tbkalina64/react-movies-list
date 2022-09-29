@@ -1,24 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './MovieList.css'
 
-export const MovieList = ({ mock, componentWatchList, handleWatch }) => {
+export const MovieList = (props) => {
 
-  const AddToWatchList = componentWatchList;
-  // console.log(mock);
-  // console.log(AddToWatchList);
-
+  const AddToWatchListComponent = props.componentWatchList;
 
   return (
     <div>
-      <div className='movies__container'>
-        {mock.map((movie, id) => (
-          <div className='MovieCard' key={id} onClick={() => handleWatch(movie)}>
+      {/* <div className='movies__container'>
+        {props.movies.map((movie, id) => (
+          <div className='MovieCard'
+            key={id}
+            onClick={() => props.handleWatch(movie)} >
             <img src={movie.image} className="card__image" alt="movie-image" />
             <p>{movie.title}</p>
-            <AddToWatchList />
+            <AddToWatchListComponent />
           </div>
-        ))}
-      </div>
+        ))
+        }
+      </div> */}
     </div>
   )
 }
